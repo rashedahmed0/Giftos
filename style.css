@@ -9,7 +9,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -23,6 +23,7 @@
 }
 
 .btn:hover {
+    color: #db4566;
     background: transparent;
 
 }
@@ -282,16 +283,200 @@ nav ul li a {
     color: white;
     background-color: #109dbd;
     padding: 14px 45px;
-    border: 2px solid #109dbd;
+    /* border: 2px solid #109dbd; */
+    border: none;
     transition: 0.6s;
     border-radius: 8px;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    color: #109dbd;
+    background-color: white;
+    /* border: 2px solid #109dbd; */
 }
 
 .btn2 {
     color: #109dbd;
     background-color: white;
     padding: 14px 45px;
-    border: 2px solid #109dbd;
+    /* border: 2px solid #109dbd; */
+    border: none;
     transition: 0.6s;
     border-radius: 8px;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: #109dbd;
+    /* border: 2px solid #109dbd; */
+}
+
+
+/* why section */
+.why {
+    margin-bottom: 100px;
+}
+
+.why-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-card {
+    text-align: center;
+    flex-basis: 32%;
+    background-color: #f9f8f7;
+    padding: 34px 15px;
+    border-radius: 8px
+}
+
+.why-card img {
+    width: 50px;
+}
+
+.why-card h5 {
+    margin-top: 10px;
+}
+
+.why-card p {
+    margin-top: 5px;
+}
+
+/* gift section */
+.gift {
+    margin-bottom: 100px;
+}
+
+.gift-container {
+    width: 90%;
+    margin: auto;
+    background-color: #6929a5;
+    border-radius: 20px;
+    padding: 50px 0;
+}
+
+.gift-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gift-img {
+    flex-basis: 48%;
+
+}
+
+.gift-img img {
+    width: 70%;
+}
+
+.gift-text {
+    width: 45%;
+}
+
+.gift-text h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.gift-text p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.gift-text button {
+    margin-bottom: 20px;
+}
+
+.btn3 {
+    color: white;
+    background-color: #9242dd;
+    padding: 14px 45px;
+    /* border: 2px solid #109dbd; */
+    border: none;
+    transition: 0.6s;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.btn3:hover {
+    color: #9242dd;
+    background-color: white;
+    /* border: 2px solid #109dbd; */
+}
+
+.btn4 {
+    color: #9242dd;
+    background-color: white;
+    padding: 14px 45px;
+    /* border: 2px solid #109dbd; */
+    border: none;
+    transition: 0.6s;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.btn4:hover {
+    color: white;
+    background-color: #9242dd;
+    /* border: 2px solid #109dbd; */
+}
+
+/* contact us section */
+.contact {
+    margin-bottom: 100px;
+}
+
+.contact-container {
+    width: 90%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contact-title {}
+
+.contact-title h1 {
+    margin-bottom: 20px;
+    color: #db4566;
+    font-weight: 700;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-map {
+    flex-basis: 45%;
+}
+
+iframe {}
+
+.contact-from {
+    text-align: center;
+    flex-basis: 45%;
+}
+
+.contact-from button {
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px;
+    outline: 0;
+    padding: 20px;
+}
+
+form .textarea {
+    padding: 40px 10px;
 }
