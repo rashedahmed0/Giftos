@@ -480,3 +480,63 @@ form input {
 form .textarea {
     padding: 40px 10px;
 }
+
+/* testimonial section */
+.testimonial {
+    margin-bottom: 100px;
+}
+
+.testimonial-container {
+    width: 90%;
+    margin: auto;
+
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-text {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 35px 20px;
+}
+
+
+.testimonial-text-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    margin-bottom: 20px;
+}
+
+.user h5 {
+    color: #db4566;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.user p {
+    color: #555;
+}
+
+.qout {}
+
+.qout .fa-quote-left {
+    color: #db4566;
+    font-size: 30px;
+}
+
+.testimonial-text-bottom {}
+
+.testimonial-text-bottom p {
+    color: #9242dd;
+}
+
+.fa-arrow-right {
+    background-color: #db4566;
+    color: white;
+    padding: 60px 12px;
+}
