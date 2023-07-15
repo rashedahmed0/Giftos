@@ -230,3 +230,68 @@ nav ul li a {
 
 
 /* new section */
+.new {
+    margin-bottom: 100px;
+}
+
+.new-container {
+    width: 90%;
+    margin: auto;
+    background-color: #7fd7eb;
+    border-radius: 20px;
+}
+
+.new-content {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-img {
+    flex-basis: 50%;
+
+}
+
+.new-img img {
+    margin-bottom: -55px;
+}
+
+.new-text {
+    width: 45%;
+}
+
+.new-text h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.new-text p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.new-text button {
+    margin-bottom: 20px;
+}
+
+.btn1 {
+    color: white;
+    background-color: #109dbd;
+    padding: 14px 45px;
+    border: 2px solid #109dbd;
+    transition: 0.6s;
+    border-radius: 8px;
+}
+
+.btn2 {
+    color: #109dbd;
+    background-color: white;
+    padding: 14px 45px;
+    border: 2px solid #109dbd;
+    transition: 0.6s;
+    border-radius: 8px;
+}
